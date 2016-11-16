@@ -5,7 +5,7 @@ require_relative 'functions.rb'
 enable :sessions
 
 get '/' do
-	@title = "Random Pairing"
+	@title = 'Random Pairing'
 	erb :get_names
 end
 
